@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/register.css">
+</head>
+<body>
+    <div class="register_box">
+        <div class="register_text">새 계정 만들기</div>
+        <input class='register_input' id='register_email' type="text" placeholder="이메일" onfocus="this.placeholder=''" onblur="this.placeholder='이메일'">
+        <input class='register_input' id='register_password' type="password" placeholder="비밀번호" onfocus="this.placeholder=''" onblur="this.placeholder='비밀번호'">
+        <input class='register_input' id='register_name' type="text" placeholder="이름" onfocus="this.placeholder=''" onblur="this.placeholder='이름'">
+        <input class='register_input' id='register_tell' type="password" placeholder="전화번호" onfocus="this.placeholder=''" onblur="this.placeholder='전화번호'">
+        <select class='register_input' id="select" value="소속부서 선택">
+            <option id='select_text'value="">소속부서 선택</option>
+            <option value="부서1">부서1</option>
+            <option value="부서2">부서2</option>
+            <option value="부서3">부서3</option>
+            <option value="부서4">부서4</option>
+        </select>
+        <div id="register_button" onclick="registerEvent()">가입하기</div>
+        
+    </div>
+    <script>
+        function registerEvent() {
+            location.href = 'login_page.html'
+        }
+    </script>
+</body>
+</html>

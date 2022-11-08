@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(224, 224, 224);
+}
+.register_text {
+    width: 350px;
+    border-bottom: solid 1px black;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 22px;
+}
+.register_box {
+    width: 400px;
+    height: fit-content;
+    margin: auto;
+    margin-top: 60px;
+    background-color: white;
+    border-radius: 10px;
+    border: solid 2px rgb(184, 184, 184);
+}
+.register_input {
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin: auto;
+    margin-top: 30px;
+    border: solid 2px orange;
+    border-radius: 10px;
+    font-size: 18px;
+}
+#select_text {
+    color: rgb(160, 160, 160);
+}
+#register_button {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    background-color: orange;
+    border: solid 2px orange;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    font-size: 22px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 420px) {
+    .register_box {
+        width: 100%;
+        height: 100vh;
+        border-radius: 0px;
+        border: 0px;
+        margin-top: 0px;
+        padding-top: 20px;
+    }
+    
+
+}

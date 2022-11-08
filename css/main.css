@@ -1,0 +1,124 @@
+body {
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(224, 224, 224);
+}
+.logo {
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    color: orange;
+    font-weight: 1000;
+    font-size: 30pt;
+    
+}
+.logo_m {
+    display: none;
+}
+.login_box {
+    width: 400px;
+    height: fit-content;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    border: solid 2px rgb(198, 198, 198);
+
+}
+#login_email {
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin: auto;
+    margin-top: 30px;
+    border: solid 2px orange;
+    border-radius: 10px;
+    font-size: 18px;
+}
+#login_password {
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin: auto;
+    margin-top: 30px;
+    border: solid 2px orange;
+    border-radius: 10px;
+    font-size: 18px;
+
+}
+#login_button {
+    
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    background-color: orange;
+    border: solid 2px orange;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    font-size: 22px;
+    cursor: pointer;
+
+}
+.find_box {
+    width: 300px;
+    height: fit-content;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px black;
+}
+#find_id {
+    font-size: 12px;
+    cursor: pointer;
+    
+}
+#find_pw {
+    font-size: 12px;
+    cursor: pointer;
+
+}
+#newAccount_button {
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(107, 173, 107);
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+@media (max-width: 420px) {
+    .logo {
+        display: none;
+    }
+    .logo_m {
+        display: block;
+        width: fit-content;
+        text-align: center;
+        margin: auto;
+        padding: 50px;
+        color: orange;
+        font-weight: 1000;
+        font-size: 26pt;
+    }
+    .login_box {
+        width: 100%;
+        height: 100vh;
+        border-radius: 0px;
+        border: 0px;
+    }
+    .find_box {
+        width: 70%;
+    }
+
+}

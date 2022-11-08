@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../css/find.css">
+</head>
+<body>
+    <div class="logo">스테이지어스</div>
+    <div class="find_box">
+        <div class="logo_m">스테이지어스</div>
+        <div class="find_text">내 이메일 찾기</div>
+        <div class="find_text2" >계정을 검색하려면 이름과 부서명을 입력하세요</div>
+        <input id='find_name' type="text" placeholder="이름" onfocus="this.placeholder=''" onblur="this.placeholder='이름'">
+        <input id='find_select' type="text" placeholder="소속 부서" onfocus="this.placeholder=''" onblur="this.placeholder='소속 부서'">
+        <div class="button_box">
+            <div id="cancel_button" onclick="cancelEvent()">취소</div>
+            <div id="find_button">찾기</div>
+        </div>
+    </div>
+    <script>
+        function cancelEvent() {
+            location.href='login_page.html'
+        }
+    </script>
+</body>
+</html>

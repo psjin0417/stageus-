@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+<body>
+    <div class="logo">스테이지어스</div>
+    <div class="login_box">
+        <div class="logo_m">스테이지어스</div>
+        <input id='login_email' type="text" placeholder="이메일" onfocus="this.placeholder=''" onblur="this.placeholder='이메일'">
+        <input id='login_password' type="password" placeholder="비밀번호" onfocus="this.placeholder=''" onblur="this.placeholder='비밀번호'">
+        <div id="login_button" onclick="loginEvent()">로그인</div>
+        <div class="find_box">
+            <div id="find_id" onclick="find_idEvent()">아이디 찾기 . </div>
+            <div id="find_pw" onclick="find_pwEvent()">비밀번호 찾기</div>
+        </div>
+        <div id="newAccount_button"onclick="registerEvent()">새 계정 만들기</div>
+    </div>
+    <script>
+        function find_idEvent() {
+            location.href = 'find_id.html'
+        }
+        function find_pwEvent() {
+            location.href = 'find_pw.html'
+        }
+        function registerEvent() {
+            location.href = 'register.html'
+        }
+        function loginEvent() {
+            location.href = '../page.jsp/main_page.jsp'
+        }
+    </script>
+</body>
+</html>
